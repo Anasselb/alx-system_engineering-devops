@@ -1,0 +1,3 @@
+#!/bin/bash
+mv -type f | grep -E '/[A-Z][^/]*$' /tmp/u/
+
